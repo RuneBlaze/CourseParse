@@ -50,19 +50,23 @@ I acknowledge that the JSON final design is inelegant, and will welcome any othe
 
 I also acknowledge that the code is ugly, but I currently have no intention to improve it.
 
-# Prerequisites
+## Prerequisites
 
 Ruby, ```pdf-reader``` gem, ```rake```.
 
-# File requirement
+## File requirement
 
 Download the directory of classes to ```assets/courses.pdf```.
 
-# Usage
+## Usage
 
  1. Clone the repo, enter it
  2. ```rake preprocess > assets/processed_courses.txt```
  3. ```ruby index.rb > output/foo-bar-whatever.json```
+
+## License
+
+Unlicensed, see file ```UNLICENSE``` for more details.
 
 ## So this is written in Ruby?
 
